@@ -1,3 +1,18 @@
 body {
     background-image: url(../img/tree_bark.png);
 }
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-size: 50px;
+}
+
+/*------------images-------------*/
+
+.monkey {
+    height: 150px;
+    width: 150px;
+}
