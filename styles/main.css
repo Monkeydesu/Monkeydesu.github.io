@@ -10,7 +10,7 @@ header {
     font-size: 50px;
 }
 
-main {
+.main_section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,6 +26,27 @@ h1 {
     border-radius: 50%;
     height: 600px;
     width: 600px;
+}
+
+.icon_section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+    height: 600px;
+}
+
+.icon_segment {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    height: 150px;
+    width: 300px;
+    background-color: white;
+    border-radius: 20%;
+    padding: 20px;
 }
 
 /*------------images-------------*/
