@@ -49,6 +49,13 @@ h1 {
     padding: 20px;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
 /*------------images-------------*/
 
 .monkey {
