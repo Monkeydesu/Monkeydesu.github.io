@@ -6,9 +6,36 @@
     <link href="../styles/main.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    
-
-    
+    <container class="blog_page">
+        <h1>What are the differences between relative, absolute, and fixed positioning?</h1>
+        <p>The default HTML positioning is “static”. This is the basic HTML that everyone is used to.<br> There are three more that everyone should know:</p>
+        <div>
+            <h3>Relative:</h3>
+            <ul>
+                <li>Like static, but you can change the top, right, bottom and left of the element.</li>
+                <li>For example if you type “left: 10px” the child element will move over 10px, it will even overflow it’s parent element.</li>
+                <li>Relative means being able to change the elements position relative where it would normally be in the document flow.</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Absolute:</h3>
+            <ul>
+                <li>Position absolute removes the element from the document flow, the other elements render as if that element didn’t exist at all.</li>
+                <li>This is useful if you want to stick an element in a certain position, but don’t want other elements to move around it.</li>
+                <li>Absolute references itself inside it’s parent container.</li>
+                <li>If the parent has position “relative”, the absolute element references itself to that.</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Fixed:</h3>
+            <ul>
+                <li>Similar to absolute.</li>
+                <li>Fixed positions itself to the entire HTML element.</li>
+                <li>It ignores it’s parent element.</li>
+                <li>Something interesting is they stay in their position when you scroll.</li>
+            </ul>
+        </div>
+    </container>
     <footer>
       <a href="../index.html"><img class="monkey" src="../img/cute_monkey.jpg" alt="cute monkey with laptop"></a>
     </footer>
