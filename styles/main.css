@@ -2,6 +2,13 @@ body {
     background-image: url(../img/tree_bark.png);
 }
 
+.blog_page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
 /*------------header-------------*/
 
 header {
@@ -63,6 +70,7 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: white;
+    margin-top: 100px;
 }
 
 /*------------images-------------*/
