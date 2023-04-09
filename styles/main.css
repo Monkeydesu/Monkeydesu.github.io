@@ -2,6 +2,8 @@ body {
     background-image: url(../img/tree_bark.png);
 }
 
+/*------------header-------------*/
+
 header {
     display: flex;
     justify-content: center;
@@ -9,6 +11,8 @@ header {
     background-color: white;
     font-size: 50px;
 }
+
+/*------------main section-------------*/
 
 .main_section {
     display: flex;
@@ -27,6 +31,8 @@ h1 {
     height: 600px;
     width: 600px;
 }
+
+/*------------icon section-------------*/
 
 .icon_section {
     display: flex;
@@ -48,6 +54,8 @@ h1 {
     border-radius: 20%;
     padding: 20px;
 }
+
+/*------------footer-------------*/
 
 footer {
     display: flex;
